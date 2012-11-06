@@ -1,0 +1,94 @@
+{process_pagedata}<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" >
+<head>
+<title>{sitename} - {title}</title>
+{metadata}
+{cms_stylesheet}
+</head>
+<body>
+<div id="wrapper">
+	
+	<div id="header">
+		<img class="left" src="/uploads/images/logo.png"/>
+		<div class="right" id="rightheader">
+			<ul>
+				<li class="greenteam"><img src="/uploads/images/greenteam.png"></li>
+				<li class="phonenumber"><i>Call {global_content name='Phone Number'}</i></li>
+			</ul>
+		</div>
+	</div>
+	
+	<div class="clear" id="menu">
+	{menu}
+	</div>
+	
+	<div id="leftCol">
+		<ul class="gogreen">
+			<li class="gogreenheader">Now is the time </br>to "Go Green"</li>
+			<ul>
+				<li class="gogreenlinks">
+					<ul>
+					<li>Energy Audits</li>
+					<li>Energy Saving Lighting Soultions</li>
+					<li>Solar Energy Systems</li>
+					<li>Electrical Systems Upgrades</li>
+					<li>Specialty Energy Savings Products</li>
+					</ul>
+				</li>
+			</ul>
+				<ul class="otherlinks">
+					<li class="border"></li>
+					<li class="schedule"><a href="">Click to Schedule a Green</br> Team Visit for my Office</a></li>
+					<li class="border"></li>
+					<li class="audit"><a href="">Click to Schedule an</br> Energy Audit</a></li>
+					<li class="border"></li>
+					<li class="mailinglist"><a href="">Join Mr. Electric's Green Team</br> Mailing List to find out</br> more about ...</a></li>					
+				</ul>
+	</div>
+	
+	<div id="rightCol">
+		<div id="video">
+			<div class="blueheader">Mr. Electric Video</div>
+			{global_content name='video'}
+		</div>
+		<div id="casestudy">
+			<div class="blueheader">Going Green Case Study</div>
+                        {global_content name='Case Study'}
+		</div>	
+	</div>
+	
+</div>
+
+<!--        Begin CMS made simple below           -->
+
+<!-- start header -->
+<div id="header">
+  <h1>{sitename}</h1>
+  <div id="rightheader">
+  {global_content name='Phone Number'}
+  </div>
+</div>
+<!-- end header -->
+
+<!-- start menu -->
+<div id="menu">
+  {menu}
+</div>
+<!-- end menu -->
+
+<!-- start content -->
+<div id="content">
+  <h1>{title}</h1>
+  {content}
+</div>
+<!-- end content -->
+
+<div id="leftCol">
+    {* edit the video block in the Global Content Block called "video" *}
+      <div class="block cms">
+        {global_content name='video'}
+      </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,231 @@
+/************************************************************/
+/*							Body							*/
+/************************************************************/
+body{
+	background-color: green;
+}
+
+/************************************************************/
+/*							Wrapper							*/
+/************************************************************/
+#wrapper{
+	margin: 50px 0px 50px 168px;
+	font-family: helvetica;
+	width: 928px;
+}
+
+/************************************************************/
+/*							Header							*/
+/************************************************************/
+#header{
+	background: url(headerbackground.png) no-repeat;
+	height:133px;
+	width:928px;
+}
+
+img.left{
+	padding:10px 0px 0px 30px;
+}
+
+#righthreader ul li.greenteam{
+}
+
+#rightheader ul li.phonenumber{
+	color: #147817;
+	font-size: 2.5em;
+}
+
+#rightheader ul li{
+	list-style: none;
+	padding: 7px 25px 0px 0px;
+}
+/************************************************************/
+/*							Menu							*/
+/************************************************************/
+#menu{
+	width: 928px;
+}
+
+#menu ul {
+	background: #f42d6a /* Old browsers*/
+	background: -moz-linear-gradient(top,  #f42d6a 0%, #a51939 99%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f42d6a), color-stop(99%,#a51939)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #f42d6a 0%,#a51939 99%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #f42d6a 0%,#a51939 99%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #f42d6a 0%,#a51939 99%); /* IE10+ */
+	background: linear-gradient(to bottom,  #f42d6a 0%,#a51939 99%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f42d6a', endColorstr='#a51939',GradientType=0 ); /* IE6-9 */
+	list-style :none;
+	margin: 10px 0px 10px 0px;
+}
+
+#menu ul li{
+	display: inline;
+	padding-left: 10px;
+}
+
+li.home{
+	vertical-align: super;
+}
+
+li.employment{
+	vertical-align: super;
+}
+#menu ul li.facebook{
+	padding-left: 350px;
+}
+
+#menu ul li.contactus{
+	color: #fff;
+	font-size: 1em;
+	vertical-align: super;
+}
+
+#menu ul li a:link{
+	color: #fff;
+	text-decoration: none;
+}
+
+#menu ul li a:visited{
+	color: #fff;
+	text-decoration: none;
+}
+
+#menu ul li a:hover{
+	color: #fff200;
+	text-decoration: none;
+}
+
+#menu ul li a:active{
+	color: #fff;
+	text-decoration: none;
+}
+
+/************************************************************/
+/*						Left Column							*/
+/************************************************************/
+#leftCol{
+	float: left;
+	color: #358b1e;
+	background-color: white;
+	width: 521px;
+	font-weight: bold;
+	margin-bottom: 100px;
+}
+
+.gogreen{
+	padding-left: 20px;
+}
+
+li.gogreenheader{
+	/*background-image: url(plug.png);
+	background-repeat: no-repeat;*/
+	background: url("plug.png") no-repeat left top;
+	padding: 0px 20px 1px 85px;
+	font-size: 2.8em;
+}
+
+ul.gogreenlinks{
+	margin-left: 125px;
+}
+
+.gogreenlinks ul li{
+	color: #6a6a6a;
+	padding: 2px 0px 2px 0px;
+	font-size: 18px;
+}
+
+li.gogreenlinks{
+	padding:10px 0px 15px 80px;
+}
+
+ul.otherlinks{
+	padding:0px 0px 0px 80px;
+}
+
+ul.class{
+	margin-left: 25px;
+}
+
+li.border{
+	border-top: 1px solid #358b1e;
+	margin: 0px 15px 0px 15px;
+	width: 350px;
+}
+
+li.schedule{
+	background: url("recycle.png") no-repeat left center;
+	padding: 25px 20px 25px 80px;
+	font-size: 18px;
+}
+
+li.audit{
+	background: url("lightbulb.png") no-repeat left center;
+	padding: 25px 20px 25px 80px;
+	font-size: 18px;
+}
+
+li.mailinglist{
+	background: url("email.png") no-repeat left top;
+	padding: 25px 20px 25px 80px;
+	font-size: 18px;
+}
+
+.schedule a{
+	color: #489337;
+}
+
+.audit a{
+	color: #489337;	
+}
+
+.mailinglist a{
+	color: #489337;	
+}
+
+/************************************************************/
+/*						Right Column						*/
+/************************************************************/
+#rightCol{
+	float: left;
+	margin-left: 15px; 
+	margin-bottom: 100px;
+	width: 390px;
+}
+
+.blueheader{
+	background-color: #0086c9;
+	height: 25px;
+	color: #fff;
+	vertical-align: super;
+	font-weight: none;
+	padding: 8px 0px 0px 8px;
+}
+
+#casestudy{
+	background-color: #fff;
+	height: 320px;
+}
+/************************************************************/
+/*						Formatting						*/
+/************************************************************/	
+}
+.clear{
+	clear:both;
+}
+.left{
+	float:left;
+}
+.right{
+	float:right;
+}
+
+ul li{
+	list-style-type: none;
+	text-decoration: none;
+}
+
+a:link{
+	text-decoration: none;
+}
+
